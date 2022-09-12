@@ -1,4 +1,4 @@
-# rpi_carplay
+# Raspberry Pi Carplay
 
 # Goal:
 I currently have a 2007 Honda Accord and I am wanting to use a Raspberry Pi 4 to incorporate Carplay and a backup camera in my vehicle. 
