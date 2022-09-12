@@ -18,7 +18,7 @@ with the hope that it becomes reusable for others.
 an AUX button in the car, but the AUX connectors were never put in. To connect the Carplay system through the car speakers I will need this adapter.
 More info on this situation can be read [here](https://vehiclefreak.com/where-is-the-aux-port-in-a-2007-honda-accord/#:~:text=So%20in%20short%2C%20no%20the,the%20rear%20of%20the%20stereo.). 
 Video on how to access and install the adapter [here](https://www.youtube.com/watch?v=0YeY0smqU9Q))
-* To-do: Backup Camera - Still need to figure out the right one. Many of the cheaper wired backup cameras are analog (yellow RCA) and so I need to figure out a way to either convert to digital signal and connect to the Pi, or find a usb camera.
+* To be updated: [Current Backup Camera](https://www.walmart.com/ip/Dual-Electronics-XCAM200-Waterproof-Full-Color-Backup-Camera-with-Wide-Viewing-Angle-Lens-and-Back-up-Parking-Guides/280067357?athbdg=L1200) - Still need to figure out the right one. Many of the cheaper wired backup cameras are analog (yellow RCA) and so I need to figure out a way to either convert to digital signal and connect to the Pi, or find a usb camera.
 The standard analog camera typically connects the power to the reverse lights so that when the car is put in reverse it turns the camera on. 
 I like this approach and hope to incorporate it so that I don't need to include a button or something to change the screen from Carplay to the backup camera.
 
