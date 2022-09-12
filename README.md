@@ -23,7 +23,7 @@ The standard analog camera typically connects the power to the reverse lights so
 I like this approach and hope to incorporate it so that I don't need to include a button or something to change the screen from Carplay to the backup camera.
 
 ### Software
-* I wouldn't have been able to make Carplay work (so far) without the App Image created by [Rhys Morgan](https://github.com/rhysmorgan134/react-carplay). 
+* I wouldn't have been able to make it work without the App Image created by [Rhys Morgan](https://github.com/rhysmorgan134/react-carplay). 
 Huge thank you to Rhys!!!
 (Check out the video on this [here](https://www.youtube.com/watch?v=mBeYd7RNw1w) - this is also where I learned about the Carplay adaper that is needed).
 * To-do: additional software to display backup camera and switch back and forth automatically
