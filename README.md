@@ -22,7 +22,7 @@ Video on how to access and install the adapter [here](https://www.youtube.com/wa
 The standard analog camera typically connects the power to the reverse lights so that when the car is put in reverse it turns the camera on. 
 I like this approach and hope to incorporate it so that I don't need to include a button or something to change the screen from Carplay to the backup camera.
 * [Reed Switch](https://arduinomodules.info/ky-021-mini-magnetic-reed-switch-module/) I am using this as a way to turn the backup camera on. I've installed this next to the reverse spot near the gear shifter. Then I have placed a magnet on the gear shifter so that when the car is in reverse the reed switch's signal changes. This will trigger the screen to switch to the backup camera. 
-![IMG_2408](https://github.com/seth602/rpi_carplay/assets/107073994/bca9979b-b011-46c9-b79a-8d7970f0b864)
+<img src="https://github.com/seth602/rpi_carplay/assets/107073994/bca9979b-b011-46c9-b79a-8d7970f0b864" width="200" height="300" />
 
 
 ### Software
