@@ -21,12 +21,15 @@ Video on how to access and install the adapter [here](https://www.youtube.com/wa
 * To be updated: [Current Backup Camera](https://www.walmart.com/ip/Dual-Electronics-XCAM200-Waterproof-Full-Color-Backup-Camera-with-Wide-Viewing-Angle-Lens-and-Back-up-Parking-Guides/280067357?athbdg=L1200) - Still need to figure out the right one. Many of the cheaper wired backup cameras are analog (yellow RCA) and so I need to figure out a way to either [convert to digital signal](https://raspberrypi.stackexchange.com/questions/88113/rca-ntsc-camera-input-is-becoming-an-absolute-nightmare) and connect to the Pi, or find a usb camera. Potential adapter solution [here](https://www.amazon.com/easyday-DC60-Capture-Software-Compatible/dp/B0126O0RDC/ref=sr_1_3?keywords=easycap+dc60&qid=1662994455&sr=8-3).
 The standard analog camera typically connects the power to the reverse lights so that when the car is put in reverse it turns the camera on. 
 I like this approach and hope to incorporate it so that I don't need to include a button or something to change the screen from Carplay to the backup camera.
+* [Reed Switch](https://arduinomodules.info/ky-021-mini-magnetic-reed-switch-module/) I am using this as a way to turn the backup camera on. I've installed this next to the reverse spot near the gear shifter. Then I have placed a magnet on the gear shifter so that when the car is in reverse the reed switch's signal changes. This will trigger the screen to switch to the backup camera. 
+![IMG_2408](https://github.com/seth602/rpi_carplay/assets/107073994/bca9979b-b011-46c9-b79a-8d7970f0b864)
+
 
 ### Software
 * I wouldn't have been able to make it work without the App Image created by [Rhys Morgan](https://github.com/rhysmorgan134/react-carplay). 
 Huge thank you to Rhys!!!
 (Check out the video on this [here](https://www.youtube.com/watch?v=mBeYd7RNw1w) - this is also where I learned about the Carplay adaper that is needed).
-* To-do: additional software to display backup camera and switch back and forth automatically
+* ~~To-do: additional software to display backup camera and switch back and forth automatically~~ added 5/16/2023. 'show_backup_camera_v2.py' can be added to the pi's boot script and will run indefinitely in the background.
 
 ### 3D prints
 * To-do: I've done a little bit with creating 3D designs that I then print at my local library. Given all the extra hardware and specific design of my car's dashboard
