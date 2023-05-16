@@ -2,8 +2,9 @@
 
 # Goal:
 I currently have a 2007 Honda Accord and I am wanting to use a Raspberry Pi 4 to incorporate Carplay and a backup camera in my vehicle. 
-This is currently is progress and this repository is to track code, hardware, 3D  prints, and anything that goes into this
+This is currently in progress and this repository is to track code, hardware, 3D  prints, and anything that goes into this
 with the hope that it becomes reusable for others.
+Update (5/16/2023): I have the touchsreen installed and have Carplay up and running as well as the reed switch working. I haven't installed the backup camera, but I have tested it and it does work.
 
 ## Components
 ### Hardware
